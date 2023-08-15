@@ -1,18 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
-  "name": "libtcod-template",
-  "version-semver": "0.0.0",
+  "name": "example-project",
+  "version-string": "0.0.1",
+  "license": "MIT",
   "dependencies": [
-    {
-      "name": "libtcod",
-      "default-features": true,
-      "features": [
-        "png",
-        "sdl",
-        "unicode",
-        "zlib"
-      ]
-    },
-    "sdl2"
+    "fmt",
+    "catch2"
   ]
 }
