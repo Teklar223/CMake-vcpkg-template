@@ -1,3 +1,3 @@
-add_executable(ExampleApp WIN32 main.cpp)
+add_executable(ExampleApp main.cpp)
 
 target_link_libraries(ExampleApp ExampleLib)

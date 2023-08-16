@@ -23,7 +23,7 @@ void RedirectIOToConsole() {
 
 int main()
 {
-    RedirectIOToConsole(); // https://stackoverflow.com/questions/60328079/piping-console-output-from-winmain-when-running-from-a-console
+    //RedirectIOToConsole(); // https://stackoverflow.com/questions/60328079/piping-console-output-from-winmain-when-running-from-a-console
     std::cout << "HELLO WORLD" << std::endl;
     printf("Hello World\n");
     //std::ofstream MyFile("HELLOWORLD.txt");
@@ -47,7 +47,9 @@ int main()
 
 // https://stackoverflow.com/questions/13871617/winmain-and-main-in-c-extended
 // https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-winmain
+/*
 int APIENTRY WinMain(HINSTANCE hInst, HINSTANCE hInstPrev, PSTR cmdline, int cmdshow)
 {
     return main();
 }
+*/
