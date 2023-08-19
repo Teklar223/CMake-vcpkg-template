@@ -1,5 +1,5 @@
 # CMake vcpkg project example
-disclaimer - (I took this)[https://github.com/HexDecimal/libtcod-vcpkg-template] repo and removed libtcod to get a 'cleaner' template for myself. </br></br>
+disclaimer - [I took this](https://github.com/HexDecimal/libtcod-vcpkg-template) repo and removed libtcod to get a 'cleaner' template for myself. </br></br>
 
 An example on how to setup a CMake project with vcpkg and its [manifest](https://vcpkg.readthedocs.io/en/latest/specifications/manifests/) (`vcpkg.json`) experimental feature
 
